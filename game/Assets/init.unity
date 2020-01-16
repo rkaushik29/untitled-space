@@ -123,7 +123,7 @@ GameObject:
   - component: {fileID: 264291}
   - component: {fileID: 264290}
   m_Layer: 0
-  m_Name: spiked ship 3. small.blue_
+  m_Name: mainShip
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -284,8 +284,9 @@ GameObject:
   - component: {fileID: 1545073116}
   - component: {fileID: 1545073115}
   - component: {fileID: 1545073114}
+  - component: {fileID: 1545073117}
   m_Layer: 0
-  m_Name: texture_laser_0
+  m_Name: laserDouble
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -372,3 +373,24 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!50 &1545073117
+Rigidbody2D:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1545073113}
+  m_BodyType: 1
+  m_Simulated: 0
+  m_UseFullKinematicContacts: 1
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDrag: 0
+  m_AngularDrag: 0.05
+  m_GravityScale: 1
+  m_Material: {fileID: 0}
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 1
+  m_Constraints: 0
